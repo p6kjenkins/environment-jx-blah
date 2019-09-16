@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: default-blah
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: default-blah
+  pipelines: {}
